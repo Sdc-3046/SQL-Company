@@ -17,7 +17,7 @@ UPDATE emtecinterns SET batch=2022;
 -- delete values from table
 DELETE from emtecinterns WHERE name='XYZ';
 DELETE emtecinterns;
-DROP emtecinterns;
+DROP table emtecinterns;
 -- Reading the table
 SELECT * FROM emtecinterwns;
 
